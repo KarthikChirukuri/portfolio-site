@@ -522,3 +522,138 @@ body, html {
 .experience-title .deployment-link i {
   margin-left: 6px;
 }
+
+
+/* ----------- Adding Responsiveness!! -------------- */
+/* ✅ Mobile responsiveness (for screens below 768px) */
+@media (max-width: 768px) {
+
+  .box {
+    width: 95vw;
+    padding: 1.5rem;
+  }
+
+  .image {
+    width: 140px;
+    height: 140px;
+  }
+
+  #name {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  #tag {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  #para {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .upper-part {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .scroll-down {
+    font-size: 30px;
+    bottom: 15px;
+  }
+
+  .lower-part {
+    padding: 20px;
+  }
+
+  .aboutMe,
+  .Experience,
+  .featuredProjects,
+  .GetInTouch {
+    padding: 1rem;
+  }
+
+  .fcard,
+  .boxf,
+  .boxd,
+  .cert-box,
+  .highlight-box {
+    width: 100% !important;
+    margin-bottom: 20px;
+    padding: 1rem;
+  }
+
+  .row.gx-5 {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .col-md-4,
+  .col-md-6,
+  .edu-column,
+  .resume-column,
+  .ffr {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .ffr input,
+  .ffr textarea {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+
+  .cert-container,
+  .highlight-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .project-links {
+    justify-content: center;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .footer-text p {
+    font-size: 0.9rem;
+  }
+
+  .section-wrapper {
+    padding: 0 10px;
+  }
+
+  .resume-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .custom-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .experience-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .bel {
+    font-size: 1.8rem;
+    margin-bottom: -50px;
+  }
+
+  .gapp, .gap, .tep {
+    margin: 0;
+    padding: 0;
+  }
+
+}
