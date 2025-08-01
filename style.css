@@ -256,7 +256,7 @@ hr{
   color: #0c6d8d; /* optional hover color */
 }
 
-.fa-envelope, .fa-github, .fa-linkedin, .fa-rocket, .from-bracket{
+.fa-envelope, .fa-github, .fa-linkedin, .fa-rocket, .from-bracket, .fa-x-twitter{
     color: aliceblue;
 }
 
@@ -374,7 +374,6 @@ input, textarea, button {
 }
 
 
-/* Highlight Section Without Outer Box */
 
 .highlight-container {
   display: flex;
